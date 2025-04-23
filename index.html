@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portafolio de Donny</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">Donny</div>
+    <nav class="navbar" id="navbar">
+      <ul>
+        <li><a href="#inicio">Home</a></li>
+        <li><a href="#proyectos">Projects</a></li>
+        <li><a href="#articulos">Articles</a></li>
+        <li><a href="#contacto">Contact</a></li>
+      </ul>
+      <button id="toggleColor">- Cambiar Color -</button>
+    </nav>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+  </header>
+
+  <main>
+
+ 
+    <section id="inicio" class="intro">
+      <h1>Parcial Segundo Corte</h1>
+      <p>html only with proper layout, no styling</p>
+    </section>
+
+
+    <section class="content-grid">
+
+
+      <div class="box">
+        <h2>Projects</h2>
+        <ul>
+          <li>HTML Only Portfolio</li>
+          <li>Calculator</li>
+          <li>Quiz App</li>
+          <li>Countdown Timer</li>
+          <li>Product Upcoming Page</li>
+        </ul>
+      </div>
+
+
+      <div class="box">
+        <h2>Work Experience</h2>
+        <p><strong>roadmap.sh</strong><br>Solved all the frontend projects<br>
+          <a href="#">Visit my Profile</a></p>
+        <p><strong>OpenSource Work</strong><br>Contributed to 50 opensource projects. Made my own projects with 200 GitHub Stars.<br>
+          <a href="#">Visit my GitHub Profile</a></p>
+      </div>
+
+
+      <div class="box">
+        <h2>Education</h2>
+        <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
+        <ul>
+          <li>Object Oriented Programming</li>
+          <li>Data Structures and Algorithms</li>
+          <li>Web Engineering</li>
+          <li>Artificial Intelligence</li>
+          <li>Human Computer Interaction</li>
+          <li>Computer Graphics</li>
+          <li>Database Management Systems</li>
+          <li>Distributed Database Systems</li>
+          <li>Discrete Mathematics</li>
+        </ul>
+      </div>
+
+    </section>
+
+ 
+    <section class="reviews">
+      <h2>Reviews from my Teachers</h2>
+      <div class="review">
+        <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+        <p class="professor">Jane Doe<br><span>Assistant Professor</span></p>
+      </div>
+      <div class="review">
+        <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+        <p class="professor">Jane Doe<br><span>Assistant Professor</span></p>
+      </div>
+      <div class="review">
+        <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+        <p class="professor">Jane Doe<br><span>Assistant Professor</span></p>
+      </div>
+    </section>
+
+
+    <section id="contacto" class="contact-section">
+      <h2>Contacto</h2>
+      <form action="https://formspree.io/f/xldbebav" method="POST">
+        <input type="text" name="name" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu correo" required>
+        <textarea name="message" placeholder="Tu mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; Parcial</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
